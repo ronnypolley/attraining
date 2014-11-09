@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vscRAGgQEeSGSLa_xGDumA" name="model"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8hZtEGgXEeSGSLa_xGDumA" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_HoGUsGgYEeSGSLa_xGDumA" name="AT learning modul">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PAsS4GgYEeSGSLa_xGDumA" name="Übungen durchführen"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_R5YXQGgYEeSGSLa_xGDumA" name="Übungsfortschritt verifzieren"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UqcJoGgYEeSGSLa_xGDumA" name="Theorieübung durchfürhren"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WFa54GgYEeSGSLa_xGDumA" name="AT Übung durchführen"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_M-rX0GgYEeSGSLa_xGDumA" name="at_user"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YQ89UGgYEeSGSLa_xGDumA" name="A_at_user_übungen durchführen" memberEnd="_YQ89UWgYEeSGSLa_xGDumA _YQ89VGgYEeSGSLa_xGDumA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YQ89UWgYEeSGSLa_xGDumA" name="at_user" type="_M-rX0GgYEeSGSLa_xGDumA" association="_YQ89UGgYEeSGSLa_xGDumA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YQ89UmgYEeSGSLa_xGDumA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQ89U2gYEeSGSLa_xGDumA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YQ89VGgYEeSGSLa_xGDumA" name="übungen durchführen" type="_PAsS4GgYEeSGSLa_xGDumA" association="_YQ89UGgYEeSGSLa_xGDumA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YQ89VWgYEeSGSLa_xGDumA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YQ89VmgYEeSGSLa_xGDumA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YpUaAGgYEeSGSLa_xGDumA" name="A_at_user_übungsfortschritt verifzieren" memberEnd="_YpUaAWgYEeSGSLa_xGDumA _YpUaBGgYEeSGSLa_xGDumA">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YpUaAWgYEeSGSLa_xGDumA" name="at_user" type="_M-rX0GgYEeSGSLa_xGDumA" association="_YpUaAGgYEeSGSLa_xGDumA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YpUaAmgYEeSGSLa_xGDumA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YpUaA2gYEeSGSLa_xGDumA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YpUaBGgYEeSGSLa_xGDumA" name="übungsfortschritt verifzieren" type="_R5YXQGgYEeSGSLa_xGDumA" association="_YpUaAGgYEeSGSLa_xGDumA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YpUaBWgYEeSGSLa_xGDumA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YpUaBmgYEeSGSLa_xGDumA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
